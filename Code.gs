@@ -91,13 +91,17 @@ function validate(name, object) {
   var valid = true
   var error = 'Invalid argument: ' + name + ' '
   
+
+  var string = typeof object == 'string'
+  var array = Array.isArray(object)
+  
   if(object == null) {
     error += 'cannot be null'
     valid = false
-  } else if((typeof object == 'string' || typeof object == 'array') && object.length == 0) {
+  } else if((string && object.trim().length == 0) || (array && object.length == 0)) {
     error += 'cannot be empty'
     valid = false
-  } else if(typeof object == 'array' && object.length >= 1) {
+  } else if(array && object.length >= 1) {
     for(i in object) {
       error += '(inside array) '
       validate(name, object[i])
