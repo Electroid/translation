@@ -39,7 +39,7 @@ Response:
 
 ### Working Example
 
-[Click here to view](https://script.google.com/macros/s/AKfycbxVFxvZxQt51S-HzOHu7YZJAhKDJs1X4JOfp3Y0uwZQ/dev?text=Hello%20my%20good%20friend,%20how%20are%20you%20today?&source=auto&targets=es,fr,de)
+[Click here to view](https://script.google.com/macros/s/AKfycbzFDznDVSwWjK5Tkft4gJ8BqnPvE9fAmyxBez9lG6tHq0lJJpM/exec?text=Hello%20my%20good%20friend,%20how%20are%20you%20today?&source=auto&targets=es,fr,de)
 
 ### Future
 I hope to create lightweight APIs in other languages (Java, Ruby, Swift, Python). You could help by making a pull request.
