@@ -49,7 +49,7 @@ function translate(text, source, targets) {
     }
   } catch(e) {
     success = false
-    error = e
+    error = e.toString()
     translations = null
   }
   
