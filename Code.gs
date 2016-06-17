@@ -91,7 +91,6 @@ function validate(name, object) {
   var valid = true
   var error = 'Invalid argument: ' + name + ' '
   
-
   var string = typeof object == 'string'
   var array = Array.isArray(object)
   
